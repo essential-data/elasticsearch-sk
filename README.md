@@ -26,7 +26,12 @@ tíme plnom šikovných ľudí.
 Inštalácia - cez Docker
 -----------------------
 
-Najjednoduchší spôsob ako vyskúšať a začať okamžite pracovať so slovenskou podporou pre Elastic Search je nainštalovať ho do [Docker-u](https://www.docker.com/) pomocou priloženého Dockerfile takto:
+Najjednoduchší spôsob ako vyskúšať a začať okamžite pracovať so slovenskou podporou pre Elastic Search je nainštalovať ho do [Docker-u](https://www.docker.com/) priamo z Docker Hub repozitára:
+
+	docker pull essentialdata/elasticsearch-sk
+	docker run -d -p 9200:9200 -p 9300:9300 essentialdata/elasticsearch-sk
+
+Druhá možnosť je použiť priložený Dockerfile (vhodné ak ho chcete zmeniť):
 
 	cd elasticsearch-sk
 	docker build -t essentialdata/elasticsearch-sk .
@@ -106,3 +111,11 @@ Ak by ste radšej používali verziu bez ASCII foldingu, použite slovník s dia
 (pozrite do ```Dockerfile``` ako na to) a nastavuje sa takto:
 
     PUT ${ELASTIC_URL}/my_index < examples/create_my_index
+
+Odkazy
+------
+
+* [Github spoločnosti Essential Data](https://github.com/essential-data/) - obsahuje naše open-source projekty (aj) pre prácu s jazykom
+* [Projekt Hunspell-sk](https://github.com/essential-data/hunspell-sk) od Essential Data, z ktorého používame slovník.
+* [Docker Hub stránka tohto projektu](https://registry.hub.docker.com/u/essentialdata/elasticsearch-sk/)
+* [Github tohto projektu](https://github.com/essential-data/elasticsearch-sk)
