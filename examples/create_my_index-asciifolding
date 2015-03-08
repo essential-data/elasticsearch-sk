@@ -1,0 +1,45 @@
+{
+  "settings": {
+    "analysis": {
+      "filter": {
+        "sk_SK": {
+          "type":     "hunspell",
+          "language": "sk_SK"
+        },
+				"sk_stop": {
+          "type":     "stop",
+					"stopwords": [ "a", "aby", "aj", "ak", "ako", "ale", "alebo",
+                       "ani", "ano", "asi", "az", "bez", "bude", "budem", "budes",
+                       "budeme", "budete", "budu", "by", "bol", "bola",
+                       "boli", "bolo", "byt", "cez", "co", "ci", "dalsi", "dalsia",
+                       "dalsie", "dnes", "do", "ho", "ej", "este", "i",
+                       "ja", "je", "jeho", "jej", "ich", "iba", "ine", "iny", "som",
+                       "si", "sme", "su", "k", "kam", "kazdy", "kazda",
+                       "kazde", "kazdi", "kde", "ked", "kto", "ktora", "ktore",
+                       "ktorou", "ktory", "ktori", "ku", "lebo", "len",
+                       "ma", "mat", "ma", "mate", "medzi", "mi", "mna", "mne",
+                       "mnou", "musiet", "moct", "moj", "moze", "my",
+                       "na", "nad", "nam", "nas", "nasi", "nie", "nech", "nez", "nic",
+                       "niektory", "nove", "novy", "nova", "nove",
+                       "novi", "o", "od", "odo", "on", "ona", "ono", "oni", "ony",
+                       "po", "pod", "podla", "pokial", "potom",
+                       "prave", "pre", "preco", "preto", "pretoze", "prvy", "prva", "prve",
+                       "prvi", "pred", "predo", "pri", "pyta", "s",
+                       "sa", "so", "si", "svoje", "svoj", "svojich", "svojim", "svojimi",
+                       "ta", "tak", "takze", "tato", "teda", "te",
+                       "ten", "tento", "the", "tieto", "tym", "tymto", "tiez", "to",
+                       "toto", "toho", "tohoto", "tom", "tomto",
+                       "tomuto", "toto", "tu", "tu", "tuto", "tvoj", "ty", "tvojimi",
+                       "uz", "v", "vam", "vas", "vase", "vo", "viac", "veru",
+                       "vsak", "vsetok", "vy", "z", "za", "zo", "ze" ]
+      }
+			},
+      "analyzer": {
+        "sk_SK": {
+          "tokenizer":  "standard",
+          "filter":   [ "lowercase", "asciifolding", "sk_stop", "sk_SK" ]
+        }
+      }
+    }
+  }
+}
