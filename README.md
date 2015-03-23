@@ -16,7 +16,7 @@ Viac informácií v súbore LICENSE.
 
 *Pozor!* Tieto slovníky sú publikované pod inou licenciou ako slovníky z projektu sk-spell!
 
-Zaujíma vás práca z jazykom? Pracujte pre nás!
+Zaujíma vás práca s jazykom? Pracujte pre nás!
 ----------------------------------------------
 
 Essential Data pracuje s jazykom, s dátami a na zaujímavých projektoch. Pozrite si
