@@ -117,5 +117,5 @@ Odkazy
 
 * [Github spoločnosti Essential Data](https://github.com/essential-data/) - obsahuje naše open-source projekty (aj) pre prácu s jazykom
 * [Projekt Hunspell-sk](https://github.com/essential-data/hunspell-sk) od Essential Data, z ktorého používame slovník.
-* [Docker Hub stránka tohto projektu](https://registry.hub.docker.com/u/essentialdata/elasticsearch-sk/)
+* [Docker Hub stránka tohto projektu](https://registry.hub.docker.com/r/essentialdata/elasticsearch-sk)
 * [Github tohto projektu](https://github.com/essential-data/elasticsearch-sk)
